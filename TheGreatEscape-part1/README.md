@@ -18,7 +18,7 @@
 [!Mail](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/Mail.png)
 
 >Ultimately though the key to solving this part of the challenge was found in an FTP-exchange wherein the user bob logged in and uploaded a file ssc.key:
-[!Ftp Data](https://raw.githubusercontent.com/grrr83/Insomni-hack-teaser-2017/master/TheGreatEscape-part1/FTP.png)
+[!Ftp Data](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/FTP.png)
 
 >The ssc.key file turns out to be an RSA-key that we can use to decrypt the TLS-traffic:
 [!RSA Key](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/RSA.png)

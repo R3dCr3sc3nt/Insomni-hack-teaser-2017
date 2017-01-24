@@ -15,18 +15,18 @@
 ## Solution
 
 >Loading up the pcap file in wireshark shows a bunch of TCP communication a long with a few interesting sections of data. The first thing that stuck out was an email sent by rogue@ssc.teaser.insomnihack.ch:
-[!Mail](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/Mail.png)
+![Mail](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/Mail.png)
 
 >Ultimately though the key to solving this part of the challenge was found in an FTP-exchange wherein the user bob logged in and uploaded a file ssc.key:
-[!Ftp Data](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/FTP.png)
+![Ftp Data](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/FTP.png)
 
 >The ssc.key file turns out to be an RSA-key that we can use to decrypt the TLS-traffic:
-[!RSA Key](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/RSA.png)
+![RSA Key](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/RSA.png)
 
 >Wireshark allows for decryption of TLS-traffic - so we inserted our private key in **Edit -> Preferences -> SSL** :
-[!Decryption](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/Wireshark.png)
+![Decryption](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/Wireshark.png)
 
 >After digging through some of the now decrypted TLS-traffic we found the flag hiding in plain sight in an HTTP header:
-[!Flag](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/Flag.png)
+![Flag](https://github.com/grrr83/Insomni-hack-teaser-2017/blob/master/TheGreatEscape-part1/Flag.png)
 
 

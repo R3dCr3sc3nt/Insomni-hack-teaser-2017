@@ -51,7 +51,7 @@ def netcat(hostname, port, ppl):
         if not (data.startswith("\n\n~~ What") or data.startswith("\n~~ What")):
             continue
 
-        time.sleep(0,1)
+        time.sleep(0.1)
         person = data.strip().split(" ")
         person = " ".join(person[7:-1])        
         year = ppl[person]

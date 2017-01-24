@@ -8,19 +8,15 @@
 
 ## Solution
 
-```
-$ nc quizz.teaser.insomnihack.ch 1031
+    $ nc quizz.teaser.insomnihack.ch 1031
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~ Hello, young hacker. Are you ready to fight rogue machines ?    ~~
-~~ Now, you'll have to prove us that you are a genuine             ~~
-~~ cryptographer.                                                  ~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~ Hello, young hacker. Are you ready to fight rogue machines ?    ~~
+    ~~ Now, you'll have to prove us that you are a genuine             ~~
+    ~~ cryptographer.                                                  ~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-~~ What is the birth year of Lars Knudsen ?
-
-```
+    ~~ What is the birth year of Lars Knudsen ?
 
 After `nc`-ing a few more times, it becomes clear that the prompt always asks for a birthyear of a notable cryptographer and/or mathematician, and then promptly disconnects. Since the connection only stays open for <= 2 seconds, this is challenge requires scripting.
 
@@ -76,9 +72,7 @@ netcat(hostname, port, ppl)
 
 After 8 rounds in the loop, the flag is revealed.
 
-```
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-~~ OK, young hacker. You are now considered to be a                ~~
-~~ INS{GENUINE_CRYPTOGRAPHER_BUT_NOT_YET_A_PROVEN_SKILLED_ONE}     ~~
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-```
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~ OK, young hacker. You are now considered to be a                ~~
+    ~~ INS{GENUINE_CRYPTOGRAPHER_BUT_NOT_YET_A_PROVEN_SKILLED_ONE}     ~~
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

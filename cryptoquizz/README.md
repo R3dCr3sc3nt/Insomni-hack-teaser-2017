@@ -30,7 +30,7 @@ done
 cat names.txt | sort | uniq > unique_names.txt
 ```
 
-`unique_names.txt` ended up having 64 names. While a dynamic solution with API calls might have been more elegant, the fatest solution is to just use Google/Wikipedia. With a few minutes of googling, I had the birth year for all the cryptographers in the [list](unique_names.txt).
+`unique_names.txt` ended up having 64 names. While a dynamic solution with API calls might have been more elegant, the fatest solution is to just use Google/Wikipedia. With a few minutes of googling, I had the birth year for all the cryptographers in the list.
 
 The final step requires setting up `stdin` and `stdout` pipes for netcat. Since this is cubersome in bash, I wrote a python script leveraging the [socket](https://docs.python.org/3/library/socket.html) module.
 

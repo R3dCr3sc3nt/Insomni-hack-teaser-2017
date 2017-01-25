@@ -1,0 +1,64 @@
+Adi Shamir 1952
+Alan Turing 1912
+Alex Biryukov 1969
+Amit Sahai 1974
+Amos Fiat 1956
+Antoine Joux 1967
+Arjen K. Lenstra 1956
+Bart Preneel 1963
+Bruce Schneier 1963
+Claude Shannon 1916
+Claus-Peter Schnorr 1943
+Dan Boneh 1969
+Daniel Bleichenbacher 1964
+Daniel J. Bernstein 1971
+David Chaum 1955
+David Naccache 1967
+Don Coppersmith 1950
+Donald Davies 1924
+Douglas Stinson 1956
+Eli Biham 1960
+Gilles Brassard 1955
+Horst Feistel 1915
+Ivan Damgard 1956
+Jacques Patarin 1965
+Jacques Stern 1949
+Jean-Jacques Quisquater 1945
+Jim Massey 1934
+Joan Daemen 1965
+Kaisa Nyberg 1948
+Lars Knudsen 1962
+Markus Jakobsson 1968
+Martin Hellman 1945
+Michael O. Rabin 1931
+Mihir Bellare 1962
+Mitsuru Matsui 1961
+Moni Naor 1961
+Neal Koblitz 1948
+Niels Ferguson 1965
+Nigel P. Smart 1967
+Oded Goldreich 1957
+Paul Kocher 1973
+Paul van Oorschot 1962
+Paulo Barreto 1965
+Phil Rogaway 1962          
+Rafail Ostrovsky 1963
+Ralph Merkle 1952
+Ron Rivest 1947
+Ronald Cramer 1968
+Ross Anderson 1956
+Scott Vanstone 1947
+Serge Vaudenay 1968
+Shafi Goldwasser 1958
+Shai Halevi 1966
+Silvio Micali 1954
+Taher Elgamal 1955
+Tatsuaki Okamoto 1952
+Ueli Maurer 1960
+Victor S. Miller 1947
+Vincent Rijmen 1970
+Wang Xiaoyun 1966
+Whitfield Diffie 1944
+Xuejia Lai 1954
+Yehuda Lindell 1971
+Yvo Desmedt 1956
